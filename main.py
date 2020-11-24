@@ -1,10 +1,5 @@
 import random
-from collections import Counter
-#import time as time_
-
-
-def millis():
-    return int(round(time_.time() * 1000))
+import bisect
 
 
 def quicksort(arr):
@@ -29,18 +24,21 @@ def quicksort(arr):
 
 def main():
 	count, points = map(int, input().split())
-	segments = [[int(x) for x in input().split()] for _ in range(count)]
-	points = {int(x) for x in input().split()}
-	arr = []
-	for seg in segments:
-		for x in range(seg[0], seg[1] + 1):
-			arr.append(x)
-	s = quicksort(arr)
-	print(s)
-	c = Counter(s)
-	print(c)
-	res = [c[x] for x in points]
-	print(*res)
+	segL = []
+	segR = []
+	for x in range(count):
+		left, right = map(int, input().split())
+		segL.append(left)
+		segR.append(right)
+	points = [int(x) for x in input().split()]
+	segL = quicksort(segL)
+	segR = quicksort(segR)
+	results = []
+	for x in points:
+		left = bisect.bisect(segL, x) + 1
+		right = bisect.bisect(segR, x) + 1
+		results.append(left - right)
+	print(*results)
 
 
 if __name__ == '__main__':
