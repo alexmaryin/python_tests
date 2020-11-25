@@ -47,9 +47,9 @@ def rank_sort(arr, length):
 
 
 def quicksort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = random.choice(arr)
+	if len(arr) <= 1:
+		return arr
+	pivot = random.choice(arr)
     less = [x for x in arr if x < pivot]
     greats = [x for x in arr if x > pivot]
     equals = [pivot] * arr.count(pivot)
@@ -59,7 +59,7 @@ def quicksort(arr):
 length = 100
 numbers = 10000
 print('Генерация массива из {} числел разрядностью {}'.format(numbers, length))
-arr = [random.randint(10**(length-1), 10**length - 1) for _ in range(numbers)]
+arr = [random.randint(10   **(length-1), 10**length - 1) for _ in range(numbers)]
 start = time.time() * 1000
 sorted_arr = rank_sort(arr, length)
 end = time.time() * 1000
