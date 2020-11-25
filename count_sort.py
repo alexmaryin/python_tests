@@ -1,5 +1,5 @@
 def count_sort(arr, count):
-    dest = [0] * count
+    dest = [0] * 10
     for j in arr:
         dest[j - 1] += 1
     for i in range(2, count + 1):
