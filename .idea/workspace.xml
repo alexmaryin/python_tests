@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77de418a-54ae-4178-8c33-ee320aafc8e3" name="Default Changelist" comment="Добавлен алгоритм поиска наибольшей возрастающей подпоследовательности">
-      <change afterPath="$PROJECT_DIR$/edit_dest.py" afterDir="false" />
+    <list default="true" id="77de418a-54ae-4178-8c33-ee320aafc8e3" name="Default Changelist" comment="Добавлен простой алгоритм поиска стоимости редактирования двух строк">
+      <changelist_data name="java73" email="java73@yandex.ru" />
+      <change afterPath="$PROJECT_DIR$/baggage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit_dest.py" beforeDir="false" afterPath="$PROJECT_DIR$/edit_dest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="java73 &lt;java73@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kkFVBqYFTTYsNZT2nPnEpE0Muw" />
@@ -46,8 +53,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.edit_dest">
-    <configuration name="count_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.baggage">
+    <configuration name="baggage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quicksort" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/count_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baggage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baggage" />
         <item itemvalue="Python.edit_dest" />
         <item itemvalue="Python.simple_factors" />
         <item itemvalue="Python.lis_find" />
         <item itemvalue="Python.rank_sort" />
-        <item itemvalue="Python.count_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606330455662</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлен простой алгоритм поиска стоимости редактирования двух строк">
+      <created>1606502426107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606502426107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,53 +232,54 @@
     <MESSAGE value="Готовый алгоритм для решения задачи поиска количества вхождений точек на прямой в различные отрезки на этой прямой.&#10;Работает так:&#10;координаты начала и конца отрезков сразу кладутся в разные массивы, которые потом сортируются методом быстрой сортировки (3), т.е. с разбиением на три подмассива - меньшие, большие и равные числа. &#10;После путем бинарного поиска для каждой точки считается разность между первым и вторым массивом (для первого ищется место вставки максимально справа, т.е. &gt;=, для второго - максимально слева, т.е. &lt;)." />
     <MESSAGE value="добавлен алгоритм сортировки подсчетом" />
     <MESSAGE value="Добавлен алгоритм поиска наибольшей возрастающей подпоследовательности" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен алгоритм поиска наибольшей возрастающей подпоследовательности" />
+    <MESSAGE value="Добавлен простой алгоритм поиска стоимости редактирования двух строк" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен простой алгоритм поиска стоимости редактирования двух строк" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="172" width="628" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606499074826">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
     <state x="403" y="172" width="628" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.868@0.0.1440.868" timestamp="1606499074826" />
-    <state width="1419" height="219" key="GridCell.Tab.0.bottom" timestamp="1606502143404">
+    <state width="1419" height="219" key="GridCell.Tab.0.bottom" timestamp="1606550906604">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="219" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1606502143404" />
-    <state width="1419" height="219" key="GridCell.Tab.0.center" timestamp="1606502143403">
+    <state width="1419" height="219" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1606550906604" />
+    <state width="1419" height="219" key="GridCell.Tab.0.center" timestamp="1606550906603">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="219" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1606502143403" />
-    <state width="1419" height="219" key="GridCell.Tab.0.left" timestamp="1606502143403">
+    <state width="1419" height="219" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1606550906603" />
+    <state width="1419" height="219" key="GridCell.Tab.0.left" timestamp="1606550906603">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="219" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1606502143403" />
-    <state width="1419" height="219" key="GridCell.Tab.0.right" timestamp="1606502143404">
+    <state width="1419" height="219" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1606550906603" />
+    <state width="1419" height="219" key="GridCell.Tab.0.right" timestamp="1606550906604">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="219" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1606502143404" />
-    <state width="1419" height="271" key="GridCell.Tab.1.bottom" timestamp="1606502101955">
+    <state width="1419" height="219" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1606550906604" />
+    <state width="1419" height="271" key="GridCell.Tab.1.bottom" timestamp="1606548174842">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="271" key="GridCell.Tab.1.bottom/0.0.1440.868@0.0.1440.868" timestamp="1606502101955" />
-    <state width="1419" height="271" key="GridCell.Tab.1.center" timestamp="1606502101954">
+    <state width="1419" height="271" key="GridCell.Tab.1.bottom/0.0.1440.868@0.0.1440.868" timestamp="1606548174842" />
+    <state width="1419" height="271" key="GridCell.Tab.1.center" timestamp="1606548174841">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="271" key="GridCell.Tab.1.center/0.0.1440.868@0.0.1440.868" timestamp="1606502101954" />
-    <state width="1419" height="271" key="GridCell.Tab.1.left" timestamp="1606502101953">
+    <state width="1419" height="271" key="GridCell.Tab.1.center/0.0.1440.868@0.0.1440.868" timestamp="1606548174841" />
+    <state width="1419" height="271" key="GridCell.Tab.1.left" timestamp="1606548174841">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="271" key="GridCell.Tab.1.left/0.0.1440.868@0.0.1440.868" timestamp="1606502101953" />
-    <state width="1419" height="271" key="GridCell.Tab.1.right" timestamp="1606502101954">
+    <state width="1419" height="271" key="GridCell.Tab.1.left/0.0.1440.868@0.0.1440.868" timestamp="1606548174841" />
+    <state width="1419" height="271" key="GridCell.Tab.1.right" timestamp="1606548174841">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state width="1419" height="271" key="GridCell.Tab.1.right/0.0.1440.868@0.0.1440.868" timestamp="1606502101954" />
+    <state width="1419" height="271" key="GridCell.Tab.1.right/0.0.1440.868@0.0.1440.868" timestamp="1606548174841" />
     <state x="139" y="72" width="1156" height="726" key="MergeDialog" timestamp="1606495853379">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
     <state x="139" y="72" width="1156" height="726" key="MergeDialog/0.0.1440.868@0.0.1440.868" timestamp="1606495853379" />
-    <state x="315" y="170" width="804" height="530" key="Vcs.Push.Dialog.v2" timestamp="1606330466896">
+    <state x="315" y="170" width="804" height="530" key="Vcs.Push.Dialog.v2" timestamp="1606502536602">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
-    <state x="315" y="170" width="804" height="530" key="Vcs.Push.Dialog.v2/0.0.1440.868@0.0.1440.868" timestamp="1606330466896" />
+    <state x="315" y="170" width="804" height="530" key="Vcs.Push.Dialog.v2/0.0.1440.868@0.0.1440.868" timestamp="1606502536602" />
     <state x="510" y="350" width="414" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606495807896">
       <screen x="0" y="0" width="1440" height="868" />
     </state>
